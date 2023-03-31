@@ -4,11 +4,13 @@
   display: grid;
   place-items: center;
 }
-.app_videos {
+.app__videos {
   height: 100vh;
   max-height: 800px;
   width: 80%;
   max-width: 500px;
   border: 1px solid black;
   border-radius: 20px;
+  overflow: scroll;
+  scrollbar-width: none;
 }
